@@ -1,4 +1,5 @@
-  it('Successfully login via API', () => {
+  describe('Basic Auth', () => {
+    it('Successfully login via API', () => {
         cy.request({
             method: 'GET',
             url: 'https://the-internet.herokuapp.com/basic_auth',
